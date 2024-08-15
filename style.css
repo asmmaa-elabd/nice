@@ -1,0 +1,53 @@
+.navbar{
+
+
+    position: fixed;
+
+}
+.item{
+background: linear-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0,0.7)),url(6.jpg);
+height: 1100px;
+}
+.hero{
+    position: absolute;
+    top: 60%;
+}
+h1{
+    color:orange;
+    font-size: 2rem;
+    font-weight:400;
+    text-transform: uppercase;
+    line-height: 150%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+  
+}
+h1:hover{
+color: orange;
+}
+.hero a{
+    border: solid 1px orange;
+    margin-right: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: orange;
+    
+}
+.hero a:hover{
+    color: #fff;
+    background-color: orangered;
+}
+.card:hover{
+    background-color: brown;
+   
+    transform:rotateX(20deg) ;
+    transition: all 1s;
+}
+.container1{
+    margin: 30px 20px 30px 20px;
+}
+.container2{
+    text-align: center;
+}
